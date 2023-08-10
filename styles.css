@@ -12,19 +12,55 @@ body {
     background-color: lightgreen;
     width: 300px;
     height: 100vh;
+    display: flex;
+    flex-direction: column;
+
 }
 
 .navbar h1 {
     text-align: center;
     color: white;
     font-size: 50px;
+    filter: drop-shadow(2px 2px rgba(0,0,0,0.5));
 
+}
+.navbar div {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5px;
+    text-align: center;
+    height: 40px;
+    color: white;
+    background-color: rgb(23, 104, 32);
+
+}
+.navbar div h3 {
+    margin-top: 10px;
+}
+.navbar div:hover {
+    background-color: rgb(88, 227, 103);
+    color: black;
+    cursor: pointer;
 }
 
 .maincontent {
     /*background-color: rgba(255, 255, 255, 0.8);*/
     backdrop-filter: blur(10px);
     flex-grow: 1;
+    overflow: auto;
     /*margin: 60px;*/
     /*margin-bottom: 0px;*/
+}
+
+.container {
+    background-color: white;
+    width: 80%;
+    min-height: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    box-shadow: 6px 6px rgba(0,0,0,0.5);
+    display: flex;
+    flex-direction: column;
 }
