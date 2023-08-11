@@ -47,9 +47,10 @@ body {
     display: flex;
     flex-direction: column-reverse;
     vertical-align: bottom;
+    color:white;
 }
 .navfooter p {
-    margin-left: 20px;
+    margin-left: 10px;
 }
 
 .navbaroption h3 {
